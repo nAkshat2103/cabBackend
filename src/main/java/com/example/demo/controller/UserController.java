@@ -22,7 +22,7 @@ import com.example.demo.model.User;
 import com.example.demo.service.UserService;
 
 @RestController
-@CrossOrigin(origins = "https://cab-companion-git-main-nakshat2103s-projects.vercel.app", allowedHeaders = "*")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("/users") // Ensure all user endpoints are under /users
 public class UserController {
 
